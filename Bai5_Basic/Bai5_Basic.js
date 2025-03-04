@@ -1,7 +1,7 @@
 let a = prompt(`Nhập vào a`);
 let b = prompt(`Nhập vào số mũ b`);
 let result = 1;
-if(Number.isNaN){
+if(Number.isNaN(a) || Number.isNaN(b)){
     alert(`Số liệu nhập vào không hợp lệ`)
 }else{
     for(let i = 0; i<b; i++){
